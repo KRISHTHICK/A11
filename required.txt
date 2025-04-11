@@ -1,0 +1,7 @@
+#Install Required Libraries:
+pip install flask pdfplumber pytesseract pymupdf pillow
+#Install Tesseract:
+#For Ubuntu:
+sudo apt install tesseract-ocr
+#Run the Server:
+python app.py
